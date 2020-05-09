@@ -3,7 +3,6 @@ const menu = document.querySelector('.menu');
 humburger.addEventListener('click', () => {
     menu.classList.toggle('open');
 });
-
 const switsh = document.querySelector('#checkbox');
 const txt = document.querySelector('.swit');
 
