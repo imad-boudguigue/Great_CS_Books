@@ -128,49 +128,14 @@ section .btn {
 
 /* ennd books  */
 
-.books h2 {
-	margin: 1rem 0;
-}
-.books button {
-	padding: 1rem;
-	display: inline-block;
-	width: 60%;
-	margin: 1rem auto;
-	border: none;
-	background: var(--btn-background-color);
-	color: var(--btn-text-color);
-	font-weight: 600;
-	font-size: 1.2rem;
-	cursor: pointer;
-}
-.books button:hover {
-	opacity: 0.8;
-}
-.books button a {
-	text-decoration: none;
-	color: var(--btn-text-color);
-}
 /* footer */
 footer {
-	height: 45vh;
-	width: 100%;
-	background: var(--footer-background-color);
-	color: var(--fooeter-color);
+	height: 12vh;
 	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
 }
-footer img {
-	width: 50%;
-}
-footer div {
-	margin-top: 1rem;
-}
+
 footer p {
 	font-size: 1.5rem;
-	margin-bottom: 0.7rem;
 }
 
 /* media query */
